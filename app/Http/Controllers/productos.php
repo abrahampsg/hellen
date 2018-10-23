@@ -10,3 +10,5 @@ use App\maestros;
 
 class productos extends Controller
 {
+	echo"hola";
+}
