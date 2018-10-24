@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 
+Route::get('/altaproducto','productosc@altaproducto')->name('altaproducto');
+Route::POST('/guardaproducto','productosc@guardaproducto')->name('guardaproducto');
